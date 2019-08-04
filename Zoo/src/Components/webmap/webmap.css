@@ -1,0 +1,12 @@
+.map-con {
+    height: calc(100% - 60px);
+}
+
+.webmap-header {
+    float: left;
+    height: 100%;
+    position: absolute;
+    left: 200px;
+    right: 0;
+    transition: left 0.2s;
+}

@@ -1,0 +1,15 @@
+.equ-icon-acount {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 0 5px 2px #c2ccd0;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #797474;
+    z-index: 2
+}

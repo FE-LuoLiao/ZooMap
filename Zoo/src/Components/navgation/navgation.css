@@ -1,0 +1,427 @@
+.nav-list {
+    width: 200px;
+    height: 100%;
+    transition: width 0.2s;
+    float: left;
+    background-color: #466b91;
+}
+
+.nav-icon-addr {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin: 5px 15px 0 0;
+    background-image: url('../picture/address.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.nav-icon-equi {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background-image: url('../picture/video.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px 15px 0 0;
+    background-position: 50% 50%;
+}
+
+.nav-icon-edit {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background-image: url('../picture/edit.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px 15px 0 0;
+    background-position: 50% 50%;
+}
+
+.nav-icon-way {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background-image: url('../picture/compass.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px 15px 0 0;
+    background-position: 50% 50%;
+}
+
+.nav-list-header {
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background-image: url('../picture/logo-alt.ab9f311b.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 40% 50%;
+}
+
+.nav-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list ul li {
+    list-style: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    padding: 14px 24px;
+}
+
+.nav-list ul li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.nav-list ul li a {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.nav-set {
+    width: 100%;
+    height: 35px;
+    opacity: 0.8;
+    overflow: hidden;
+    transition: opacity 0.5s;
+    box-sizing: border-box;
+    padding: 14px 24px;
+}
+
+.nav-set:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.nav-set-pic {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background-image: url('../picture/set.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px 15px 0 0;
+    background-position: 50% 50%;
+}
+
+.nav-set-text {
+    font-size: 14px;
+    color: #c8d3de;
+}
+
+.nav-set-choose {
+    display: block;
+    float: right;
+    width: 14px;
+    height: 14px;
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+    background-image: url('../picture/arrow-down.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5px;
+    background-position: 50% 50%;
+}
+
+.nav-set-list {
+    margin-top: 20px;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+    background-color: #2b5178;
+}
+
+.nav-set-list-content {
+    width: 100px;
+    height: 0px;
+    position: absolute;
+    left: 60px;
+    top: 280px;
+    overflow: hidden;
+    transition: height 0.5s;
+    border-radius: 3px;
+    z-index: 2;
+    background-color: #fff;
+    box-shadow: 10px, 10px, #515a6e;
+}
+
+.nav-set-list-content ul li {
+    width: 100px;
+    padding: 10px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.nav-set-list-content ul li a {
+    color: #515a6e;
+    font-size: 14px;
+}
+
+.nav-user-manage {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-image: url('../picture/usermanage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 7px 15px 0 20px;
+    background-position: 50% 50%;
+}
+
+.nav-user-manage-content {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-image: url('../picture/usermanger1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+    background-position: 50% 50%;
+}
+
+.nav-icon-manage-content {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-image: url('../picture/face1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+    background-position: 50% 50%;
+}
+
+.nav-data-manage-content {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-image: url('../picture/usermanger1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+    background-position: 50% 50%;
+}
+
+.nav-icon-manage {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background-image: url('../picture/face.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px 15px 0 20px;
+    background-position: 50% 50%;
+}
+
+.nav-data-manage {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-image: url('../picture/usermanage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 7px 15px 0 20px;
+    background-position: 50% 50%;
+}
+
+.nav-content {
+    width: 100%;
+    height: 60px;
+    /* padding-left: 200px; */
+    transition: padding-left 0.2s;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.nav-content-header {
+    background: #5f85ad;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.nav-header-meun {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+    background-image: url('../picture/menu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-header-meun:hover {
+    cursor: pointer;
+    background-image: url('../picture/menu1.png');
+}
+
+.nav-header-tex {
+    width: auto;
+    height: 20px;
+    float: left;
+    padding: 17px 40px 13px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-header-tex span:first-child a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s;
+    font-weight: bolder;
+}
+
+.nav-header-tex span:first-child a:hover {
+    color: #57a3f3;
+}
+
+.nav-header-tex-cut {
+    display: block;
+    float: left;
+    padding: 0 10px;
+}
+
+.nav-header-tex span i {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    margin-top: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.nav-login {
+    width: auto;
+    height: 100%;
+    float: right;
+}
+
+.nav-login>div {
+    float: right;
+    height: 100%;
+}
+
+.nav-login>div:hover {
+    cursor: pointer;
+}
+
+.nav-login-fullsice {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 13px 10px 10px 0;
+    background-image: url('../picture/full_screen.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.nav-login-fullsice:hover {
+    cursor: pointer;
+}
+
+.nav-login-user {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 13px 0 10px 0;
+    background-image: url('../picture/userlogin.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.nav-login-user:hover {
+    cursor: pointer;
+}
+
+.nav-login-list {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 10px 0 10px 0;
+    background-image: url('../picture/arrowdownuser.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.nav-login-list:hover {
+    cursor: pointer;
+}
+
+.nav-personal {
+    position: absolute;
+    top: 60px;
+    right: 5px;
+    width: 80px;
+    height: 0;
+    box-sizing: content-box;
+    overflow: hidden;
+    transition: height 0.4s;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 2px 1px 20px #c8d3de;
+    border-radius: 3px;
+}
+
+.personal-list {
+    width: 80px;
+    height: 90px;
+    box-shadow: 2px 1px 20px #c8d3de;
+    border-radius: 3px;
+}
+
+.personal-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.personal-list ul li {
+    box-sizing: border-box;
+    list-style: none;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.personal-list ul li:hover {
+    background-color: #c8d3de;
+}
+
+.personal-list ul li a {
+    line-height: 30px;
+    text-decoration: none;
+    color: #515a6e;
+    font-size: 14px;
+}

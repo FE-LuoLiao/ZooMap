@@ -1,0 +1,176 @@
+.scenic-add-way {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    z-index: 1;
+    width: 300px;
+    height: 60px;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fff
+}
+
+.scenic-add-con {
+    position: absolute;
+    left: 16px;
+    right: 56px;
+    border-top: 1px solid #dddee1
+}
+
+.scenic-way-name {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 38%;
+    border-radius: 5px;
+    opacity: 1;
+    visibility: hidden;
+    transition: all 1s;
+    z-index: 2;
+    background-color: #f8f8f1;
+}
+
+.scenic-way-name h5 {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    margin: 0;
+    border-bottom: 1px solid #dddee1;
+    box-sizing: border-box;
+}
+
+.scenic-wey-in {
+    padding: 20px 15px 40px 15px;
+    border-bottom: 1px solid #dddee1;
+}
+
+.scenic-wey-in label {
+    color: red;
+    padding-top: 2px;
+}
+
+.scenic-wey-in span {
+    padding-right: 20px;
+    font-size: 14px;
+    color: #515a6e
+}
+
+.scenic-wey-in input {
+    height: 30px;
+    width: 210px;
+    border: 1px solid #dddee1;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cancel-save {
+    padding: 10px 20px 0 0;
+}
+
+.cancel-save>button:first-child {
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid #dddee1;
+    border-radius: 5px;
+    color: #515a6e;
+    font-size: 12px;
+    transition: color 0.3s;
+    transition: border 0.3s;
+    background-color: #fff;
+}
+
+.cancel-save>button:last-child {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #57a3f3;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    opacity: 1;
+    transition: opacity 0.2s;
+    background-color: #57a3f3;
+}
+
+.cancel-save button:hover {
+    cursor: pointer;
+}
+
+.cancel-save>button:first-child:hover {
+    border: 1px solid #57a3f3;
+    color: #57a3f3;
+}
+
+.cancel-save>button:last-child:hover {
+    opacity: 0.8
+}
+
+.scenic-add-key {
+    float: right;
+    width: 40px;
+    height: 100%;
+    border: 1px dashed #dddee1;
+    transition: border 0.2s
+}
+
+.scenic-add-key:hover {
+    border: 1px dashed #57a3f3;
+}
+
+.scenic-add-key-b {
+    width: 100%;
+    height: 100%;
+    padding-left: 13px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 0;
+}
+
+.scenic-add-key-b:hover {
+    cursor: pointer;
+}
+
+.scenic-add-key-icon {
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    background-image: url('../picture/add.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.scenic-add-key-icon:hover {
+    background-image: url('../picture/add1.png');
+}
+
+.scenic-icon-acount {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 0 5px 2px #c2ccd0;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #797474;
+    z-index: 1
+}
+
+.sceni-cut-face {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 1;
+    visibility: hidden;
+    transition: all 1s;
+    background-color: rgba(1, 1, 1, 0.6)
+}
